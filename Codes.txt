@@ -1,0 +1,9 @@
+Add column: no function------
+1 Total Buying Value = InputData[QUANTITY]*InputData[MasterData.BUYING PRIZE]
+..................
+Add measureS: 
+
+we add functions----
+Profit = Sum(InputData[Total Selling Value])-sum(InputData[Total Buying value])
+
+Profit % = [Profit]/SUM(InputData[Total Buying value])
